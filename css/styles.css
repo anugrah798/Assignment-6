@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    padding-top: 70px;
+}
+
+/* NAVBAR */
+
+.custom-nav {
+    background: linear-gradient(90deg, #ff7a18, #ff4b2b);
+    z-index: 1000;
+}
+
+/* HERO */
+
+.hero {
+    padding: 150px 20px;
+    background: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e");
+    background-size: cover;
+    background-position: center;
+}
+
+/* SEARCH BAR */
+
+.search-bar {
+    margin-top: -40px;
+    margin-bottom: 60px;
+}
+
+.search-box {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* DESTINATION CARDS */
+
+.destination-card {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    transition: 0.3s;
+}
+
+.destination-card:hover {
+    transform: translateY(-10px);
+}
+
+.destination-card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+/* FEATURES */
+
+.feature-box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon {
+    font-size: 40px;
+    color: #ff7a18;
+    margin-bottom: 15px;
+}
+
+/* TESTIMONIALS */
+
+.testimonials {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+
+/* FOOTER */
+
+.footer {
+    background: #222;
+    color: white;
+    padding: 20px;
+}
+
+/* RESPONSIVE */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media(max-width:768px) {
+
+    .hero {
+        padding: 100px 20px;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+}
