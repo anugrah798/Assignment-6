@@ -1,2 +1,2 @@
-# Assignment-6
+travel-landing-page
 Module End Assessment
